@@ -12,7 +12,7 @@
 #! pip install cloudstorage
 #! pip install tensorflow
 
-import numpy as np
+import numpy as np  # This is just a test
 
 import pandas as pd
 
