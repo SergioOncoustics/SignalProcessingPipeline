@@ -12,7 +12,7 @@
 #! pip install cloudstorage
 #! pip install tensorflow
 
-import numpy as np  # This is just a test
+import numpy as np
 
 import pandas as pd
 
@@ -2019,7 +2019,7 @@ def video_shadowing_quicker( video, threshold, deadlength, shift, deadavg, shado
 #################################################################################################################################
 
 # THE STUFF THAT NEEDS TO RUN
-'''Sergio: Start of the code'''
+'''sms: Start of the code'''
 
 print('STARTING PREP')
 
@@ -2031,7 +2031,7 @@ storage_client = storage.Client()
 # Define buckets to load data from in list
 bucket_list=["pd-cases-tar-extracted","clarius-full","new-cases-1-extract","cases-02_02-22_05"]
 '''sms: All the data that is currently available'''
-cases_list=["liver_data_6.csv"]#["PD_USA_cases_processed.csv"]#["Combined_Cases_Mar15th2021.csv"]#["pd_cases_tar_extracted_full_list.csv","clarius_full_list.csv","newcases1ext_full_list.csv","cases020202205_full_list.csv"]
+cases_list=["review_qus_pipeline_PD.csv"]#["PD_USA_cases_processed.csv"]#["Combined_Cases_Mar15th2021.csv"]#["pd_cases_tar_extracted_full_list.csv","clarius_full_list.csv","newcases1ext_full_list.csv","cases020202205_full_list.csv"]
 '''sms: Selection of patients'''
 
 for casebucket_no in range(0,len(bucket_list)):
